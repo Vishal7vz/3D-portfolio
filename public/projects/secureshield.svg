@@ -1,0 +1,19 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="24" fill="#0C1222"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+  <g opacity="0.3">
+    <circle cx="120" cy="120" r="80" fill="url(#g)"/>
+    <circle cx="680" cy="140" r="60" fill="url(#g)"/>
+    <circle cx="400" cy="380" r="90" fill="url(#g)"/>
+  </g>
+  <g fill="none" stroke="url(#g)" stroke-width="10" stroke-linecap="round">
+    <path d="M400 120c100 0 160 40 160 40v80c0 100-70 150-160 190-90-40-160-90-160-190v-80s60-40 160-40z"/>
+    <path d="M340 260l40 40 80-80"/>
+  </g>
+  <text x="50%" y="90%" text-anchor="middle" fill="#C7D2FE" font-family="Inter, system-ui" font-size="20" font-weight="600">SecureShield</text>
+</svg>

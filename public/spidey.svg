@@ -1,0 +1,13 @@
+<svg width="80" height="120" viewBox="0 0 80 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- web line -->
+  <rect x="39" y="0" width="2" height="18" rx="1" fill="#F3F4F6"/>
+  <!-- head (red) -->
+  <ellipse cx="40" cy="24" rx="12" ry="14" fill="#DC2626"/>
+  <!-- torso (red) -->
+  <path d="M40 38c12 0 20 10 20 18v8c0 8-8 18-20 18s-20-10-20-18v-8c0-8 8-18 20-18Z" fill="#EF4444"/>
+  <!-- lower/legs (blue) -->
+  <path d="M30 80c-2 8-1 18 10 18s12-10 10-18" stroke="#1D4ED8" stroke-width="6" stroke-linecap="round"/>
+  <!-- eyes -->
+  <ellipse cx="34" cy="24" rx="4" ry="3" fill="#FFFFFF"/>
+  <ellipse cx="46" cy="24" rx="4" ry="3" fill="#FFFFFF"/>
+</svg>
