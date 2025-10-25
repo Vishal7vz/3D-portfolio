@@ -14,33 +14,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Vishal Singh | Full‑Stack Developer",
-<<<<<<< HEAD
   description: "I build beautiful, modern web experiences with Next.js, TypeScript, and delightful animations.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-=======
-  description:
-    "I build beautiful, modern web experiences with Next.js, TypeScript, and delightful animations.",
-  keywords: [
-    "Vishal Singh",
-    "Full-Stack Developer",
-    "Next.js",
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "Framer Motion",
-    "GSAP",
-  ],
-  metadataBase: new URL("https://example.com"),
-};
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
->>>>>>> d8336f66 (feat: portfolio - Next.js + Tailwind + animations + 3D-ready)
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} antialiased bg-background text-foreground`}>

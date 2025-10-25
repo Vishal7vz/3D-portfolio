@@ -6,14 +6,7 @@ export function Contact() {
     <section id="contact" className="relative mx-auto max-w-6xl scroll-mt-24 px-4 py-24">
       <motion.h2 initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-2xl font-semibold">Contact</motion.h2>
       <div className="mt-8 grid gap-8 md:grid-cols-2">
-<<<<<<< HEAD
         <form onSubmit={(e) => { e.preventDefault(); alert("Thanks! I'll get back to you soon."); }} className="rounded-2xl border border-white/15 bg-white/60 p-6 backdrop-blur dark:border-white/10 dark:bg-zinc-900/60">
-=======
-        <form
-          onSubmit={(e) => { e.preventDefault(); alert("Thanks! I'll get back to you soon."); }}
-          className="rounded-2xl border border-white/15 bg-white/60 p-6 backdrop-blur dark:border-white/10 dark:bg-zinc-900/60"
-        >
->>>>>>> d8336f66 (feat: portfolio - Next.js + Tailwind + animations + 3D-ready)
           <div className="grid gap-4">
             <input className="rounded-lg border border-white/20 bg-white/80 px-4 py-3 outline-none placeholder:text-zinc-500 dark:border-white/10 dark:bg-zinc-900/70" placeholder="Name" required />
             <input type="email" className="rounded-lg border border-white/20 bg-white/80 px-4 py-3 outline-none placeholder:text-zinc-500 dark:border-white/10 dark:bg-zinc-900/70" placeholder="Email" required />

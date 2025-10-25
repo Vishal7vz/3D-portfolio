@@ -61,21 +61,13 @@ export function Projects() {
     const rect = el.getBoundingClientRect();
     const cx = rect.left + rect.width / 2;
     const cy = rect.top + rect.height / 2;
-<<<<<<< HEAD
     const dx = (e.clientX - cx) / rect.width;
-=======
-    const dx = (e.clientX - cx) / rect.width; // -0.5..0.5
->>>>>>> d8336f66 (feat: portfolio - Next.js + Tailwind + animations + 3D-ready)
     const dy = (e.clientY - cy) / rect.height;
     const tx = dx * 12;
     const ty = dy * 12;
     const rot = dx * 2;
     el.style.transform = `translate3d(${tx}px, ${ty}px, 0) rotate(${rot}deg) scale(1.01)`;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> d8336f66 (feat: portfolio - Next.js + Tailwind + animations + 3D-ready)
   function onLeave(e: React.MouseEvent<HTMLDivElement, MouseEvent>) {
     const el = e.currentTarget as HTMLDivElement;
     el.style.transform = "translate3d(0,0,0) rotate(0deg) scale(1)";
@@ -98,11 +90,7 @@ export function Projects() {
             onMouseLeave={onLeave}
           >
             <div aria-hidden data-parallax className="pointer-events-none absolute -inset-8 -z-10 bg-gradient-to-tr from-violet-500/15 via-indigo-500/10 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-<<<<<<< HEAD
             {p.img ? (
-=======
-            {"img" in p && p.img ? (
->>>>>>> d8336f66 (feat: portfolio - Next.js + Tailwind + animations + 3D-ready)
               <div className="mb-4 overflow-hidden rounded-xl border border-white/10">
                 <Image src={p.img} alt={`${p.title} preview`} width={800} height={500} className="h-auto w-full object-cover" />
               </div>
@@ -110,11 +98,7 @@ export function Projects() {
             <h3 className="text-lg font-semibold">{p.title}</h3>
             <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-300">{p.desc}</p>
             <div className="mt-3 flex flex-wrap gap-2 text-xs opacity-80">
-<<<<<<< HEAD
               {p.tech.map((t) => (
-=======
-              {p.tech.map(t => (
->>>>>>> d8336f66 (feat: portfolio - Next.js + Tailwind + animations + 3D-ready)
                 <span key={t} className="rounded-full border border-white/15 bg-white/50 px-2 py-1 backdrop-blur dark:border-white/10 dark:bg-zinc-900/50">{t}</span>
               ))}
             </div>

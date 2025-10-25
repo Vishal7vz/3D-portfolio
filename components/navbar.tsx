@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { ThemeToggle } from "@/components/theme-toggle";
-<<<<<<< HEAD
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -22,14 +21,6 @@ export function Navbar() {
             <Image src="/spidey.svg" alt="spidey" width={40} height={60} className="drop-shadow" />
           </motion.div>
         </div>
-=======
-
-export function Navbar() {
-  return (
-    <header className="fixed inset-x-0 top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-zinc-900/50 border-b border-black/5 dark:border-white/10">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
-        <Link href="#hero" className="font-semibold tracking-tight">Vishal Singh</Link>
->>>>>>> d8336f66 (feat: portfolio - Next.js + Tailwind + animations + 3D-ready)
         <nav className="hidden gap-6 md:flex">
           <a href="#about" className="text-sm opacity-80 hover:opacity-100">About</a>
           <a href="#skills" className="text-sm opacity-80 hover:opacity-100">Skills</a>
